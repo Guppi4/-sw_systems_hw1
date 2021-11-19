@@ -8,12 +8,12 @@ int main()//uy
 char choice;
 int G[MAX][MAX],i,j,s,f,s1,f1;
 do{
-        printf("please choose program\n");
+        
         scanf(" %c", &choice);
         switch (choice)
         {
         case 'A':
-         printf("\nEnter the adjacency matrix:\n");
+         
          for(i=0;i<MAX;i++)
          for(j=0;j<MAX;j++)
          scanf("%d",&G[i][j]); 
