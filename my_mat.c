@@ -5,7 +5,9 @@
 
 int dijkstraifpath(int G[MAX][MAX],int startnode,int endnode)
 {
- 
+ if(startnode==endnode){
+     return 1000000;
+ }
 int cost[MAX][MAX],distance[MAX];
 int visited[MAX],count,mindistance,nextnode,i,j;
 

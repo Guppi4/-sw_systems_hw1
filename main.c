@@ -24,22 +24,22 @@ do{
             scanf("%d %d",&s,&f)	;
             if(dijkstraifpath(G,s,f)!=INFINITY){
                
-               printf("True"); 
+               printf("True\n"); 
             }
             else{
-               printf("False"); 
+               printf("False\n"); 
             }
             break;	 
         
         case 'C': 
             
              scanf("%d %d",&s1,&f1);
-             if(dijkstraifpath(G,s1,f1)!=INFINITY){
+             if(dijkstraifpath(G,s1,f1)!=INFINITY ){
                
-               printf("%d",dijkstraifpath(G,s,f)); 
+               printf("%d\n",dijkstraifpath(G,s1,f1)); 
             }
             else{
-               printf("%d",-1); 
+               printf("%d\n",-1); 
             }   
             break;
         
